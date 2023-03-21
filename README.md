@@ -1,6 +1,6 @@
 <div align="center">
 
-![Study Tech Notes](./logo.png)
+![Study Tech Notes](/logo.png)
 
 </div>
 
