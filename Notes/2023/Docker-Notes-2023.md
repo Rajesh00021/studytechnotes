@@ -1,8 +1,8 @@
-<h1 align="center">
- 
- ![Study Tech Notes](/logo.png)
+<h1 align="center>
 
-</h1>
+ ![Study Tech Notes](logo.png)
+
+ </h1>
 
 
 ## What is Docker?
