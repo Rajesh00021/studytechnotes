@@ -1,10 +1,13 @@
 <div align="center">
 
-<img src="./logo.png" width="50%"/>
-
-StudyTechNotes is a under developing non-profit org founded by Shivam Sharma. StudyTechNotes have simple and beginner freindly tech notes which help to you learn fast and be a good developer.Don't forget to ⭐ this repo
+<img src="./logo.png" width="30%"/>
 
 </div>
+
+<p>
+StudyTechNotes is a under developing non-profit org founded by Shivam Sharma. StudyTechNotes have simple and beginner freindly tech notes which help to you learn fast and be a good developer.Don't forget to ⭐ this repo</p>
+
+ 
 
 ### Table of Content
 
