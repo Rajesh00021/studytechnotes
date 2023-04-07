@@ -71,3 +71,45 @@ Whenever we use `docker run -d <image name>` It will always create and run a new
 Dockerfile- Build instruction, This is a text document that contains commands to assemble an image. Then docker will able to read those instructions and build an image.
 
 ![img](https://cdn.hashnode.com/res/hashnode/image/upload/v1678437654255/7477bbed-16ca-46a2-bf13-bfce3ddd1bbf.png)
+
+---
+
+## How To Dockerize An Application?
+
+### What is Dockerize?
+
+Dockerizing is the process of packing, deploying, and running applications using Docker containers.
+
+### Chose a base image
+
+You can start from a Base OS and install everything by yourself. Choose an image based on the used technology, such as `Node, Java, Ruby, and Python.` I am going to use `Node` for my hello-world application.
+
+ **1.** Create a file hello-world.js
+    
+```javascript
+Console.log("Hello World");
+
+```
+    
+**2.** Create a `Dockerfile` in the root directory with the same name `Dockerfile` and write the following instructions
+    
+ ```javascript
+    FROM node:alpine
+    COPY ./app
+    WORKDIR /app
+    CMD node app.js
+```
+    
+**3.** Build the Docker image from this Dockerfile, you can run the following command from the directory containing the Dockerfile. This will create a Docker image with the tag **\`**hello-world**\`**
+        
+```bash
+ docker build -t hello-world .
+
+```
+        
+**4.** Finally, you can run the Docker container from the image using the following command
+            
+```bash
+ docker run hello-world
+
+```
